@@ -60,4 +60,4 @@ design-system-interview/
 
 ## Licença
 
-Uso interno V4 Company. Adapte à vontade.
+Gabriel Araujo
