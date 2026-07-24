@@ -14,7 +14,7 @@ Uma skill que **entrevista você sobre a marca** e transforma as respostas na **
 
 ### Claude Code (terminal)
 ```bash
-git clone https://github.com/<seu-usuario>/design-system-interview.git ~/.claude/skills/design-system-interview
+git clone https://github.com/Gabrielaraujo21/design-system-interview.git ~/.claude/skills/design-system-interview
 ```
 Reinicie o Claude Code. A skill aparece automaticamente e é acionada quando você pede para estruturar uma marca / montar um design system. Você também pode chamá-la por `/design-system-interview`.
 
