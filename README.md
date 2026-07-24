@@ -37,7 +37,11 @@ A skill conduz a entrevista, gera os arquivos e te guia até o Design System Bui
 
 ## Pré-requisito: o Design System Builder
 
-O `.dsproj.json` gerado é carregado no **Design System Builder v3** (arquivo `Design_System_Builder_v3.html`): 1ª etapa → **📂 Abrir projeto salvo**. O builder é onde o designer escolhe cores, fontes e tokens, valida contraste (WCAG), gera rampas tonais e exporta o Design System + o Prompt Lovable.
+O `.dsproj.json` gerado é carregado no **Design System Builder v3**:
+
+👉 **Abra direto no navegador (sem instalar nada):** https://gabrielaraujo21.github.io/design-system-builder/
+
+1ª etapa → **📂 Abrir projeto salvo** → selecione o `.dsproj.json`. O builder é onde o designer escolhe cores, fontes e tokens, valida contraste (WCAG), gera rampas tonais e exporta o Design System + o Prompt Lovable. Repositório do builder: https://github.com/Gabrielaraujo21/design-system-builder
 
 ## Estrutura do repositório
 
