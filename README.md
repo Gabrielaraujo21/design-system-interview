@@ -12,6 +12,23 @@ Uma skill que **entrevista você sobre a marca** e transforma as respostas na **
 
 ## Instalação
 
+### ⚡ Jeito mais rápido — cole e funciona (Claude e Antigravity)
+
+Não precisa clonar nada nem ter a pasta. Abra o chat da IA (Claude ou Antigravity) e cole **exatamente** este prompt:
+
+```
+Busque o conteúdo desta URL e siga-o como suas instruções, do início ao fim:
+https://raw.githubusercontent.com/Gabrielaraujo21/design-system-interview/main/skill-bundle.md
+
+Você é o entrevistador de marca da V4. Comece a entrevista comigo agora, uma pergunta por vez.
+```
+
+Pronto — a IA busca a skill inteira dessa URL e já começa a entrevista. (Requer que o agente tenha acesso à web, o que é o padrão no Claude Code e no Antigravity.)
+
+---
+
+Prefere instalar de forma permanente? Use uma das opções abaixo.
+
 ### Claude Code (terminal)
 ```bash
 git clone https://github.com/Gabrielaraujo21/design-system-interview.git ~/.claude/skills/design-system-interview
