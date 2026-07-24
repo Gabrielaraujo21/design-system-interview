@@ -1,0 +1,45 @@
+{
+  "_type": "v4-design-system-project",
+  "_v": "3.4",
+  "fields": {
+    "clientName": "",
+    "setor": "",
+    "cidade": "",
+    "foco": "",
+    "posicionamento": "",
+    "naoParece": "",
+    "manifesto": "",
+    "persona1": "",
+    "persona2": "",
+    "tomVoz": "",
+    "palavrasSim": "",
+    "palavrasNao": "",
+    "ctaPadrao": "",
+    "canalConversao": "",
+    "logoNota": "",
+    "typo-display": "",
+    "typo-h1": "",
+    "typo-h2": "",
+    "typo-body": "",
+    "typo-caption": "",
+    "typo-cta": "",
+    "fotoDesc": "",
+    "mascoteNome": "",
+    "mascoteEspecie": "",
+    "mascotePersonalidade": ""
+  },
+  "selects": {
+    "fotoEstilo": "",
+    "fotoLuz": "",
+    "scaleBase": "15",
+    "scaleRatio": "1.25"
+  },
+  "pillars": [],
+  "difere": [],
+  "ruleGood": [],
+  "ruleBad": [],
+  "checkItems": [],
+  "S": {
+    "hasMascote": false
+  }
+}
