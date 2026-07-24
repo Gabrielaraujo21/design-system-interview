@@ -35,7 +35,13 @@ Ao fim da entrevista, produza **dois arquivos** (se não puder escrever arquivos
 
 ## Você NÃO toca (design — é do designer humano)
 
-Cores, fontes, `typo-*`, `mood`, `radius`, `shadow`, `motion`, `btnStyle`, `dsBg`, logo, `fotoEstilo`, `fotoLuz`. Deixe fora do objeto `S` tudo que for design — o loader do builder faz `Object.assign` e mantém os defaults. **Nunca invente hex, nome de fonte ou tom visual.**
+Cores, fontes, `typo-*`, `mood`, `radius`, `shadow`, `motion`, `btnStyle`, `dsBg`, logo, `fotoEstilo`, `fotoLuz`. **Nunca invente hex, nome de fonte ou tom visual.**
+
+⚠️ **REGRA CRÍTICA — o objeto `S` deve conter APENAS `"hasMascote"`.** Não inclua `colors`, `fontH`, `fontB`, `mood`, `radius`, `shadow`, `motion`, `icons`, `logos` nem qualquer outra chave de design dentro de `S`. Deixe `S` assim e nada mais:
+```json
+"S": { "hasMascote": false }
+```
+O builder já tem os defaults de design; o designer preenche a parte visual lá. Incluir `colors` (ainda que vazio ou como texto) é o erro mais comum e faz o builder falhar.
 
 ## Validação
 - `_type` = exatamente `"v4-design-system-project"` (senão o builder recusa).
