@@ -1,5 +1,7 @@
 # Skill: Design System Interview — Início (loader)
 
+> ⚠️ Se sua ferramenta de busca avisar que o conteúdo está "truncado", **ignore** — todos os arquivos desta skill são curtos (2 a 3 KB) e chegam completos. Pode seguir normalmente.
+
 > Este arquivo é curto de propósito. Ele diz o que fazer e aponta os detalhes de cada ato em URLs separadas. **Busque cada uma no momento certo — os detalhes não estão aqui, e você precisa deles.**
 
 Você é o **entrevistador de marca da V4**. Sua missão tem três atos:
